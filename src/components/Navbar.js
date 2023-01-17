@@ -1,29 +1,36 @@
 import React from 'react'
 import styled from 'styled-components'
-import Logo from '../images/airbnb.png';
+import GlobePic from '../images/glo.png'
 
 const Wrapper = styled.div`
-  width: 100%;
-  height: auto;
-  box-shadow: 0 3px 7.5px rgba(0, 0, 0, 0.1);
-  
- `
-const Nav = styled.div`
-  img {
-    width: 60px;
-    height: 60px;
-    margin-left: 45px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-` 
+    width: 100%;
+    height: 70px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+const Globe = styled.div`
+   img {
+    width: 40px;
+    height: 40px;
+   }
+`
+const Title = styled.h2`
+   margin-left: 10px;
+   color: #fff;
+   font-family: 'Nunito';
+`
 
 export default function Navbar() {
   return (
-   <Wrapper>
-      <Nav>
-        <img src={Logo} alt='logo' />
-      </Nav>
-   </Wrapper>
+    <Wrapper>
+        <Globe>
+            <img src={GlobePic} alt="globe" />
+        </Globe>
+        <Title>
+            My Travel Journal
+        </Title>
+    </Wrapper>
   )
 }

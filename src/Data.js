@@ -2,106 +2,59 @@
 export default [
     {
         id: 1,
-        title: "Have a wonderful moment with your family",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        price: 136,
-        coverImg: "A1.jpeg",
-        stats: {
-            rating: 5.0,
-            reviewCount: 6
-        },
-        location: "Westlands",
-        openSpots: 0,
+        photo: "mt kenya.jpeg",
+        country: "Kenya",
+        link: "https://goo.gl/maps/pUeQfef9imYimneNA",
+        duration: "31st December 2022 - 3rd January 2023",
+        // eslint-disable-next-line no-multi-str
+        description: "Mt Kenya is the tallest mountain in Kenya standing at 5,199 metres.\
+                      It is the single most popular tourist site in Kenya, for both Kenyans \
+                      and foreign tourists.Mount Kenya is located in the former Eastern and \
+                       Central provinces of Kenya; its peak is now the intersection of Meru, \
+                       Embu, Laikipia, Kirinyaga, Nyeri and Tharaka Nithi counties, about 16.5 \
+                       kilometres south of the equator, around 150km north-northeast of the \
+                       capital Nairobi.",
+       location: "Mt Kenya",
     },
     {
         id: 2,
-        title: "The best place to enjoy your holiday",
-        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
-        price: 125,
-        coverImg: "A2.jpeg",
-        stats: {
-            rating: 5.0,
-            reviewCount: 30
-        },
-        location: "Karen",
-        openSpots: 27,
+        photo: "serengeti.jpeg",
+        country: "Tanzania",
+        link: "https://goo.gl/maps/qFXGRSmNp6Sc1P2X6",
+        duration: "24th December 2022 - 27th December 2022",
+        // eslint-disable-next-line no-multi-str
+        description: "one of the most popular protected areas in all of Africa. \
+                      Encompassing 14,763km2/5,700mi2 and making up 50% of the wider Serengeti–Mara \
+                      ecosystem, this is an iconic wildlife area. Sensational scenery dominated by \
+                      expansive savannah grasslands and peppered with distinctive flattop acacias \
+                      and Balanites trees make this the most picturesque landscape in all of Africa.",
+        location: "Serengeti National Park",
     },
     {
         id: 3,
-        title: "Have the best fun in wonderful places",
-        description: "Taking cooking classes and discover some italian dishes",
-        price: 50,
-        coverImg: "A3.jpeg",
-        stats: {
-            rating: 4.8,
-            reviewCount: 7
-        },
-        location: "Kilimani",
-        openSpots: 3,
+        photo: "thompson.jpeg",
+        country: "Kenya",
+        link: "https://goo.gl/maps/FMferUbcS4Vi8u7G7",
+        duration: "13th November 2022",
+        // eslint-disable-next-line no-multi-str
+        description: "Nyahururu Falls is a 74 metres (243 ft) waterfall on the Ewaso \
+                      Ng'iro river in Central Rift Valley Kenya, I was impressed mightily by the \
+                      stupendous thundering of the waters which in magnificent \
+                      mass plunged down several hundred feet into a fearful gloomy gorge. ... ", 
+        location: "Thompson's Falls",
     },
     {
         id: 4,
-        title: "Enjoy with your family in wonderful places",
-        description: "Taking cooking classes and discover some italian dishes",
-        price: 150,
-        coverImg: "A4.jpeg",
-        stats: {
-            rating: 4.9,
-            reviewCount: 9
-        },
-        location: "Westlands",
-        openSpots: 0,
-    },
-    {
-        id: 5,
-        title: "Happiness is checking into a place like this",
-        description: "Taking cooking classes and discover some italian dishes",
-        price: 80,
-        coverImg: "A5.jpeg",
-        stats: {
-            rating: 4.0,
-            reviewCount: 7
-        },
-        location: "Upperhill",
-        openSpots: 7,
-    },
-    {
-        id: 6,
-        title: "Feel relaxed, refreshed and recharged",
-        description: "Taking cooking classes and discover some italian dishes",
-        price: 120,
-        coverImg: "A6.jpeg",
-        stats: {
-            rating: 4.1,
-            reviewCount: 6
-        },
-        location: "Naivasha",
-        openSpots: 5,
-    },
-    {
-        id: 7,
-        title: "Culture is simply a shared way of doing something with passion",
-        description: "Taking cooking classes and discover some italian dishes",
-        price: 110,
-        coverImg: "A7.jpeg",
-        stats: {
-            rating: 4.4,
-            reviewCount: 4
-        },
-        location: "Donhom",
-        openSpots: 6,
-    },
-    {
-        id: 8,
-        title: "The stuff that matters in life is no longer stuff",
-        description: "Taking cooking classes and discover some italian dishes",
-        price: 105,
-        coverImg: "A8.jpeg",
-        stats: {
-            rating: 3.4,
-            reviewCount: 8
-        },
-        location: "Westlands",
-        openSpots: 0,
+        photo: "lncc.jpeg",
+        country: "Kenya",
+        link: "",
+        duration: "31st April 2022 - 3rd May 2022",
+        // eslint-disable-next-line no-multi-str
+        description: "Lake Naivasha Crescent Camp is located on the shores of Lake Naivasha at \
+                      the heart of the Kenyan Rift Valley, only 90 minutes drive from Nairobi.\
+                     The camp is constructed using canvas and has a capacity of 20 luxury tents. \
+                     The tents are well furnished, have wooden floors and adequate space generously \
+                     created to allow free movement inside and outside at the guests’ comfort.",
+        location: "Lake Naivasha Crescent Camp",
     }
-]
+]  
